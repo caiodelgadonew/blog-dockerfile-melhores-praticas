@@ -1,0 +1,11 @@
+2020-05-21 14:27:10,813 INFO Initial blacklisted packages: 
+2020-05-21 14:27:10,814 INFO Initial whitelisted packages: 
+2020-05-21 14:27:10,814 INFO Starting unattended upgrades script
+2020-05-21 14:27:10,814 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2020-05-21 14:27:33,023 INFO Initial blacklisted packages: 
+2020-05-21 14:27:33,024 INFO Initial whitelisted packages: 
+2020-05-21 14:27:33,024 INFO Starting unattended upgrades script
+2020-05-21 14:27:33,024 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2020-05-21 14:27:40,075 INFO Packages that will be upgraded: apt apt-transport-https apt-utils bind9-host dnsutils file git git-man iproute2 libapt-inst2.0 libapt-pkg5.0 libbind9-160 libdns-export1100 libdns1100 libirs160 libisc-export169 libisc169 libisccc160 libisccfg160 libjson-c3 libldap-2.4-2 libldap-common liblwres160 libmagic-mgc libmagic1 libpython3.6 libpython3.6-minimal libpython3.6-stdlib linux-headers-generic linux-headers-virtual linux-image-virtual linux-virtual python3.6 python3.6-minimal tzdata
+2020-05-21 14:27:40,076 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2020-05-21 14:28:43,781 INFO All upgrades installed

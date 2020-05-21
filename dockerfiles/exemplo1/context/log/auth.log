@@ -1,0 +1,226 @@
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: new group: name=ubuntu, GID=1001
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: new user: name=ubuntu, UID=1001, GID=1001, home=/home/ubuntu, shell=/bin/bash
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'adm'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'dialout'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'cdrom'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'floppy'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'sudo'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'audio'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'dip'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'video'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'plugdev'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'lxd'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to group 'netdev'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'adm'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'dialout'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'cdrom'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'floppy'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'sudo'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'audio'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'dip'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'video'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'plugdev'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'lxd'
+Apr 18 18:38:17 ubuntu-bionic useradd[748]: add 'ubuntu' to shadow group 'netdev'
+Apr 18 18:38:17 ubuntu-bionic passwd[755]: password for 'ubuntu' changed by 'root'
+Apr 18 18:38:17 ubuntu-bionic systemd-logind[782]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 18 18:38:17 ubuntu-bionic systemd-logind[782]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 18 18:38:17 ubuntu-bionic systemd-logind[782]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr 18 18:38:17 ubuntu-bionic systemd-logind[782]: New seat seat0.
+Apr 18 18:38:19 ubuntu-bionic sshd[1074]: Server listening on 0.0.0.0 port 22.
+Apr 18 18:38:19 ubuntu-bionic sshd[1074]: Server listening on :: port 22.
+Apr 18 18:38:19 ubuntu-bionic sshd[1075]: Accepted publickey for vagrant from 10.0.2.2 port 53424 ssh2: RSA SHA256:1M4RzhMyWuFS/86uPY/ce2prh/dVTHW7iD2RhpquOZA
+Apr 18 18:38:19 ubuntu-bionic sshd[1075]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 18:38:19 ubuntu-bionic systemd-logind[782]: New session 1 of user vagrant.
+Apr 18 18:38:19 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 18:38:22 ubuntu-bionic sshd[1075]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 18:38:22 ubuntu-bionic systemd-logind[782]: Removed session 1.
+Apr 18 18:38:22 ubuntu-bionic systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Apr 18 18:38:22 ubuntu-bionic sshd[1354]: Accepted publickey for vagrant from 10.0.2.2 port 53428 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 18:38:22 ubuntu-bionic sshd[1354]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 18:38:22 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 18:38:22 ubuntu-bionic systemd-logind[782]: New session 3 of user vagrant.
+Apr 18 18:38:23 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:23 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:23 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:23 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:23 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:24 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:24 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:24 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:24 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:24 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:25 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:25 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:25 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:25 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 18:38:25 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:38:25 ubuntu-bionic sshd[1354]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 18:38:25 ubuntu-bionic systemd-logind[782]: Removed session 3.
+Apr 18 18:40:22 ubuntu-bionic sshd[1892]: Accepted publickey for vagrant from 10.0.2.2 port 53436 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 18:40:22 ubuntu-bionic sshd[1892]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 18:40:22 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 18:40:22 ubuntu-bionic systemd-logind[782]: New session 5 of user vagrant.
+Apr 18 18:40:30 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/curl -fsSL https://get.docker.com
+Apr 18 18:40:30 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:30 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:40:30 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c apt-get update -qq >/dev/null
+Apr 18 18:40:30 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:39 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:40:39 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq apt-transport-https ca-certificates curl >/dev/null
+Apr 18 18:40:39 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:41 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:40:41 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c curl -fsSL "https://download.docker.com/linux/ubuntu/gpg" | apt-key add -qq - >/dev/null
+Apr 18 18:40:41 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:41 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:40:41 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" > /etc/apt/sources.list.d/docker.list
+Apr 18 18:40:41 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:41 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:40:41 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c apt-get update -qq >/dev/null
+Apr 18 18:40:41 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:43 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:40:43 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c apt-get install -y -qq --no-install-recommends docker-ce >/dev/null
+Apr 18 18:40:43 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:40:58 ubuntu-bionic groupadd[3035]: group added to /etc/group: name=docker, GID=999
+Apr 18 18:40:58 ubuntu-bionic groupadd[3035]: group added to /etc/gshadow: name=docker
+Apr 18 18:40:58 ubuntu-bionic groupadd[3035]: new group: name=docker, GID=999
+Apr 18 18:41:04 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:41:04 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c docker version
+Apr 18 18:41:04 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:41:06 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:45:49 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/curl https://raw.githubusercontent.com/docker/machine/v0.16.0/contrib/completion/bash/docker-machine.bash -o /etc/bash_completion.d/docker-machine
+Apr 18 18:45:49 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:45:50 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:47:46 ubuntu-bionic sshd[1970]: Received disconnect from 10.0.2.2 port 53436:11: disconnected by user
+Apr 18 18:47:46 ubuntu-bionic sshd[1970]: Disconnected from user vagrant 10.0.2.2 port 53436
+Apr 18 18:47:46 ubuntu-bionic sshd[1892]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 18:47:46 ubuntu-bionic systemd-logind[782]: Removed session 5.
+Apr 18 18:47:50 ubuntu-bionic sshd[4293]: Accepted publickey for vagrant from 10.0.2.2 port 53546 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 18:47:50 ubuntu-bionic sshd[4293]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 18:47:50 ubuntu-bionic systemd-logind[782]: New session 7 of user vagrant.
+Apr 18 18:47:50 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 18:48:06 ubuntu-bionic sshd[4375]: Received disconnect from 10.0.2.2 port 53546:11: disconnected by user
+Apr 18 18:48:06 ubuntu-bionic sshd[4375]: Disconnected from user vagrant 10.0.2.2 port 53546
+Apr 18 18:48:06 ubuntu-bionic sshd[4293]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 18:48:06 ubuntu-bionic systemd-logind[782]: Removed session 7.
+Apr 18 18:48:34 ubuntu-bionic sshd[4392]: Accepted publickey for vagrant from 10.0.2.2 port 53548 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 18:48:34 ubuntu-bionic sshd[4392]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 18:48:34 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 18:48:34 ubuntu-bionic systemd-logind[782]: New session 9 of user vagrant.
+Apr 18 18:48:48 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/gpasswd -a vagrant docker
+Apr 18 18:48:48 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 18 18:48:48 ubuntu-bionic gpasswd[4492]: user vagrant added by root to group docker
+Apr 18 18:48:48 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 18:48:50 ubuntu-bionic sshd[4470]: Received disconnect from 10.0.2.2 port 53548:11: disconnected by user
+Apr 18 18:48:50 ubuntu-bionic sshd[4470]: Disconnected from user vagrant 10.0.2.2 port 53548
+Apr 18 18:48:50 ubuntu-bionic sshd[4392]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 18:48:50 ubuntu-bionic systemd-logind[782]: Removed session 9.
+Apr 18 18:48:50 ubuntu-bionic systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Apr 18 18:48:53 ubuntu-bionic sshd[4504]: Accepted publickey for vagrant from 10.0.2.2 port 53550 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 18:48:53 ubuntu-bionic sshd[4504]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 18:48:53 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 18:48:53 ubuntu-bionic systemd-logind[782]: New session 11 of user vagrant.
+Apr 18 19:17:01 ubuntu-bionic CRON[4901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 18 19:17:01 ubuntu-bionic CRON[4901]: pam_unix(cron:session): session closed for user root
+Apr 18 20:17:01 ubuntu-bionic CRON[5783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 18 20:17:01 ubuntu-bionic CRON[5783]: pam_unix(cron:session): session closed for user root
+Apr 18 20:21:01 ubuntu-bionic sshd[4582]: Received disconnect from 10.0.2.2 port 53550:11: disconnected by user
+Apr 18 20:21:01 ubuntu-bionic sshd[4582]: Disconnected from user vagrant 10.0.2.2 port 53550
+Apr 18 20:21:01 ubuntu-bionic sshd[4504]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 20:21:01 ubuntu-bionic systemd-logind[782]: Removed session 11.
+Apr 18 20:25:34 ubuntu-bionic sshd[5896]: Accepted publickey for vagrant from 10.0.2.2 port 55328 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 20:25:34 ubuntu-bionic sshd[5896]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 20:25:34 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 20:25:34 ubuntu-bionic systemd-logind[782]: New session 15 of user vagrant.
+Apr 18 21:17:01 ubuntu-bionic CRON[6603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 18 21:17:01 ubuntu-bionic CRON[6603]: pam_unix(cron:session): session closed for user root
+Apr 18 21:21:01 ubuntu-bionic CRON[6606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 18 21:21:01 ubuntu-bionic CRON[6606]: pam_unix(cron:session): session closed for user root
+Apr 18 21:27:22 ubuntu-bionic sshd[5996]: Received disconnect from 10.0.2.2 port 55328:11: disconnected by user
+Apr 18 21:27:22 ubuntu-bionic sshd[5996]: Disconnected from user vagrant 10.0.2.2 port 55328
+Apr 18 21:27:22 ubuntu-bionic sshd[5896]: pam_unix(sshd:session): session closed for user vagrant
+Apr 18 21:27:22 ubuntu-bionic systemd-logind[782]: Removed session 15.
+Apr 18 21:27:25 ubuntu-bionic sshd[6613]: Accepted publickey for vagrant from 10.0.2.2 port 56988 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+Apr 18 21:27:25 ubuntu-bionic sshd[6613]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 18 21:27:25 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 18 21:27:25 ubuntu-bionic systemd-logind[782]: New session 19 of user vagrant.
+Apr 18 21:27:26 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 18 21:27:26 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 21:27:26 ubuntu-bionic systemd: pam_unix(systemd-user:session): session closed for user vagrant
+May 21 14:27:01 docker01 systemd-logind[725]: Watching system buttons on /dev/input/event0 (Power Button)
+May 21 14:27:01 docker01 systemd-logind[725]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 21 14:27:01 docker01 systemd-logind[725]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 21 14:27:01 docker01 systemd-logind[725]: New seat seat0.
+May 21 14:27:02 docker01 sshd[902]: Server listening on 0.0.0.0 port 22.
+May 21 14:27:02 docker01 sshd[902]: Server listening on :: port 22.
+May 21 14:27:05 docker01 sshd[1449]: Accepted publickey for vagrant from 10.0.2.2 port 41986 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+May 21 14:27:05 docker01 sshd[1449]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+May 21 14:27:05 docker01 systemd-logind[725]: New session 1 of user vagrant.
+May 21 14:27:05 docker01 systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+May 21 14:27:07 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:07 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:07 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:07 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:07 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:07 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:07 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:07 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:07 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:08 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:08 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:08 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:09 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:09 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:09 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:09 docker01 sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 21 14:27:09 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:27:09 docker01 sshd[1449]: pam_unix(sshd:session): session closed for user vagrant
+May 21 14:27:09 docker01 systemd-logind[725]: Removed session 1.
+May 21 14:27:10 docker01 sshd[2136]: Connection closed by 10.0.2.2 port 41958 [preauth]
+May 21 14:27:17 docker01 sshd[2161]: Accepted publickey for vagrant from 10.0.2.2 port 42004 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+May 21 14:27:17 docker01 sshd[2161]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+May 21 14:27:17 docker01 systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+May 21 14:27:17 docker01 systemd-logind[725]: New session 3 of user vagrant.
+May 21 14:35:30 docker01 sshd[2233]: Received disconnect from 10.0.2.2 port 42004:11: disconnected by user
+May 21 14:35:30 docker01 sshd[2233]: Disconnected from user vagrant 10.0.2.2 port 42004
+May 21 14:35:30 docker01 sshd[2161]: pam_unix(sshd:session): session closed for user vagrant
+May 21 14:35:41 docker01 sshd[11933]: Accepted publickey for vagrant from 10.0.2.2 port 42042 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+May 21 14:35:41 docker01 sshd[11933]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+May 21 14:35:41 docker01 systemd-logind[725]: New session 5 of user vagrant.
+May 21 14:40:58 docker01 systemd-logind[725]: Removed session 3.
+May 21 15:00:49 docker01 sudo:  vagrant : TTY=pts/1 ; PWD=/vagrant/dockerfiles/exemplo1 ; USER=root ; COMMAND=/bin/cp -r /var/log/ /vagrant/dockerfiles/exemplo1/context/
+May 21 15:00:49 docker01 sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+May 21 15:00:49 docker01 sudo: pam_unix(sudo:session): session closed for user root
+May 21 15:07:11 docker01 sshd[13191]: Accepted publickey for vagrant from 10.0.2.2 port 42194 ssh2: RSA SHA256:ScCQzEg02Kapeuek1g/lSW/xv5Sf93Ae0KbzD+8wjIo
+May 21 15:07:11 docker01 sshd[13191]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+May 21 15:07:11 docker01 systemd-logind[725]: New session 6 of user vagrant.
+May 21 15:09:58 docker01 sudo:  vagrant : TTY=pts/0 ; PWD=/vagrant/dockerfiles/exemplo1/context ; USER=root ; COMMAND=/bin/cp -r /var/log .
+May 21 15:09:58 docker01 sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)

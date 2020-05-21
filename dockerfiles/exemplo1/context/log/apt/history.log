@@ -1,0 +1,101 @@
+
+Start-Date: 2020-04-07  15:51:21
+End-Date: 2020-04-07  15:51:21
+
+Start-Date: 2020-04-07  15:59:27
+Commandline: apt-get install --no-install-recommends -y virtualbox-guest-utils
+Install: virtualbox-guest-utils:amd64 (5.2.34-dfsg-0~ubuntu18.04.1)
+End-Date: 2020-04-07  15:59:28
+
+Start-Date: 2020-04-18  18:40:40
+Commandline: apt-get install -y -qq apt-transport-https ca-certificates curl
+Requested-By: vagrant (1000)
+Install: apt-transport-https:amd64 (1.6.12)
+End-Date: 2020-04-18  18:40:40
+
+Start-Date: 2020-04-18  18:40:50
+Commandline: apt-get install -y -qq --no-install-recommends docker-ce
+Requested-By: vagrant (1000)
+Install: containerd.io:amd64 (1.2.13-1, automatic), docker-ce:amd64 (5:19.03.8~3-0~ubuntu-bionic), docker-ce-cli:amd64 (5:19.03.8~3-0~ubuntu-bionic, automatic)
+End-Date: 2020-04-18  18:41:03
+
+Start-Date: 2020-05-21  14:27:47
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apt-transport-https:amd64 (1.6.12, 1.6.12ubuntu0.1)
+End-Date: 2020-05-21  14:27:48
+
+Start-Date: 2020-05-21  14:27:49
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.17.1-1ubuntu0.5, 1:2.17.1-1ubuntu0.7)
+End-Date: 2020-05-21  14:27:50
+
+Start-Date: 2020-05-21  14:27:52
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.17.1-1ubuntu0.5, 1:2.17.1-1ubuntu0.7)
+End-Date: 2020-05-21  14:27:54
+
+Start-Date: 2020-05-21  14:27:56
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: iproute2:amd64 (4.15.0-2ubuntu1, 4.15.0-2ubuntu1.1)
+End-Date: 2020-05-21  14:27:57
+
+Start-Date: 2020-05-21  14:27:59
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libapt-inst2.0:amd64 (1.6.12, 1.6.12ubuntu0.1)
+End-Date: 2020-05-21  14:27:59
+
+Start-Date: 2020-05-21  14:28:01
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libdns-export1100:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12)
+End-Date: 2020-05-21  14:28:01
+
+Start-Date: 2020-05-21  14:28:03
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libisc-export169:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12)
+End-Date: 2020-05-21  14:28:03
+
+Start-Date: 2020-05-21  14:28:05
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libjson-c3:amd64 (0.12.1-1.3, 0.12.1-1.3ubuntu0.2)
+End-Date: 2020-05-21  14:28:05
+
+Start-Date: 2020-05-21  14:28:07
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libldap-common:amd64 (2.4.45+dfsg-1ubuntu1.4, 2.4.45+dfsg-1ubuntu1.5)
+End-Date: 2020-05-21  14:28:07
+
+Start-Date: 2020-05-21  14:28:09
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: tzdata:amd64 (2019c-0ubuntu0.18.04, 2020a-0ubuntu0.18.04)
+End-Date: 2020-05-21  14:28:09
+
+Start-Date: 2020-05-21  14:28:11
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libldap-2.4-2:amd64 (2.4.45+dfsg-1ubuntu1.4, 2.4.45+dfsg-1ubuntu1.5)
+End-Date: 2020-05-21  14:28:11
+
+Start-Date: 2020-05-21  14:28:13
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apt:amd64 (1.6.12, 1.6.12ubuntu0.1), libapt-pkg5.0:amd64 (1.6.12, 1.6.12ubuntu0.1), apt-utils:amd64 (1.6.12, 1.6.12ubuntu0.1)
+End-Date: 2020-05-21  14:28:16
+
+Start-Date: 2020-05-21  14:28:18
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libmagic1:amd64 (1:5.32-2ubuntu0.3, 1:5.32-2ubuntu0.4), libmagic-mgc:amd64 (1:5.32-2ubuntu0.3, 1:5.32-2ubuntu0.4), file:amd64 (1:5.32-2ubuntu0.3, 1:5.32-2ubuntu0.4)
+End-Date: 2020-05-21  14:28:19
+
+Start-Date: 2020-05-21  14:28:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpython3.6-minimal:amd64 (3.6.9-1~18.04, 3.6.9-1~18.04ubuntu1), libpython3.6-stdlib:amd64 (3.6.9-1~18.04, 3.6.9-1~18.04ubuntu1), libpython3.6:amd64 (3.6.9-1~18.04, 3.6.9-1~18.04ubuntu1), python3.6:amd64 (3.6.9-1~18.04, 3.6.9-1~18.04ubuntu1), python3.6-minimal:amd64 (3.6.9-1~18.04, 3.6.9-1~18.04ubuntu1)
+End-Date: 2020-05-21  14:28:23
+
+Start-Date: 2020-05-21  14:28:25
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-image-4.15.0-101-generic:amd64 (4.15.0-101.102, automatic), linux-headers-4.15.0-101:amd64 (4.15.0-101.102, automatic), linux-headers-4.15.0-101-generic:amd64 (4.15.0-101.102, automatic), linux-modules-4.15.0-101-generic:amd64 (4.15.0-101.102, automatic)
+Upgrade: linux-headers-generic:amd64 (4.15.0.96.87, 4.15.0.101.91), linux-virtual:amd64 (4.15.0.96.87, 4.15.0.101.91), linux-headers-virtual:amd64 (4.15.0.96.87, 4.15.0.101.91), linux-image-virtual:amd64 (4.15.0.96.87, 4.15.0.101.91)
+End-Date: 2020-05-21  14:28:38
+
+Start-Date: 2020-05-21  14:28:40
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libisccfg160:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), libirs160:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), bind9-host:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), dnsutils:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), libisc169:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), liblwres160:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), libisccc160:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12), libdns1100:amd64 (1:9.11.3+dfsg-1ubuntu1.11, 1:9.11.3+dfsg-1ubuntu1.12)
+End-Date: 2020-05-21  14:28:42
